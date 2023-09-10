@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK6</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        
+    }
+    .div-container {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+    }
+    .img-container{
+        text-align: center;
+    }
+    .form-container{
+        padding-top: 10px;
+    }
+    .label{
+        font-weight: bold;
+    }
+    img.avatar {
+        width: 200px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    input[type="text"],
+    input[type="password"]{
+        width: 100%;
+        padding: 10px;
+        height: 30px;
+        border: 1px solid #ccc;
+    }
+
+
+    button {
+        height: 30px;
+        font-weight: bold;
+        color: white;
+        border: 1px transparent;
+        border-radius: 3px;
+
+    }
+
+    .login-btn {
+        background-color: #04AA6D;
+        width: 100%;
+        text-emphasis: bold;
+        
+    }
+    .cancel-btn {
+        background-color:#f44336;
+        width: 20%;
+        padding: 0.5px;
+        
+    }
+    .rem-container{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: left;
+        padding-left:0;
+        font-size: small;
+        font-weight: 550;
+        
+    }
+
+    .container-footer {
+        background-color: lightgray;
+        margin-bottom: 15%;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 3px;
+    }
+    a{
+        text-align: right;
+        color: black;
+        font-size: small;
+        font-weight: 550;
+        float: right;
+    }
+</style>
+<body>
+<div class="div-container">
+    <div class="img-container">
+        <img class ="avatar" src="log.jpg" alt="lol">
+    </div>
+    
+    <form action="#">
+        <div class="form-container">
+            <label for="uname" class="label">Username</label>
+            <input type="text">
+        </div>
+        <div class="form-container">
+            <label for="pass" class="label">Password</label>
+            <input type="password" name="pass">
+        </div>
+    </form>
+    <button type="submit" class="login-btn">Login</button>
+    <div class="rem-container">
+        <input type="checkbox" name="rem" id="rem">
+        <label for="rem">Remember Me</label>
+    </div>
+    <div class="container-footer">
+        <button type="#" class="cancel-btn">Cancel</button>
+        <a href="#">Forget password?</a>
+    </div>
+</div>
+    
+</body>
+</html>
